@@ -431,3 +431,4 @@ git subtree add --prefix third_party/cybergym https://github.com/sunblaze-ucb/cy
 
 
 ## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
