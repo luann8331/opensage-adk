@@ -391,7 +391,8 @@ compaction_percent = 50
 
 ### Plugins Configuration
 
-Configures which plugins are enabled and where to find them. See [Plugins](Plugins.md) for full documentation.
+Configures which plugins are enabled and where to find them. See
+[Plugins](../developer_guide/Plugins.md) for full documentation.
 
 **Section:** `[plugins]`
 
@@ -673,6 +674,6 @@ If `default_host` is not set, services like Neo4j and MCP will default to `127.0
 
 ## Related Documentation
 
-- [Getting Started](Getting-Started.md) - Initial setup guide
-- [Core Components](Core-Components.md) - How configuration fits in the system
-- [Sandboxes](Sandboxes.md) - Sandbox backends and configuration guide
+- [Setup](Setup.md) - Initial setup guide
+- [Sandboxes](../developer_guide/Sandboxes.md) - Sandbox backends and
+  configuration guide

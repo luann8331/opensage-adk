@@ -315,5 +315,4 @@ agent = Agent(
 
 ## See Also
 
-[Tools](Getting-Started.md#tools) - Tool types and patterns
-[Best Practices](Best-Practices.md) - Best practices for tools
+[Tools](../user_guide/Setup.md#tools) - Tool types and patterns
