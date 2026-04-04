@@ -191,6 +191,3 @@ For the full internal details, see [workflow details](workflow.md).
 | `src/opensage/evaluations/secodeplt/vul_detection.py` | Another example |
 
 ## See also
-
-- [Development Guides](../Development-Guides.md)
-- [Testing & Debugging](../Testing-Debugging.md)

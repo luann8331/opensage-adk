@@ -188,6 +188,3 @@ The `k8s` backend exists in the codebase, but it should still be treated as
   execution backend (e.g., a new container/runtime environment).
 
 ## See Also
-
-[Core Components](Core-Components.md) - Sandbox system details
-[Development Guides](Development-Guides.md) - Other development guides

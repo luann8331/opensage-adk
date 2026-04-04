@@ -90,27 +90,23 @@ nav:
   - Home: index.md
   - User Guide:
     - Getting Started:
-      - Introduction: Introduction.md
-      - Getting Started: Getting-Started.md
-      - Project Structure: Project-Structure.md
-    - Practices:
-      - Best Practices: Best-Practices.md
-      - Testing & Debugging: Testing-Debugging.md
-    - Configuration: Configuration.md
+      - Introduction: user_guide/Introduction.md
+      - Setup: user_guide/Setup.md
+      - Configuration: user_guide/Configuration.md
   - Developer Guide:
-    - Core:
-      - Development Guides: Development-Guides.md
-      - Core Components: Core-Components.md
-    - Extending:
-      - Adding Tools: Adding-Tools.md
-      - Plugins: Plugins.md
-      - Sandboxes:
-        - Sandbox System Guide: Sandboxes.md
-        - Adding a Sandbox: Adding-a-Sandbox.md
-        - Adding a New Sandbox Backend: Adding-a-New-Sandbox-Backend.md
-      - RL Integration:
-        - AReaL Training: rl_integration/AReaL-Training.md
-        - Slime Training: rl_integration/slime-Training.md
+    - Project Structure: developer_guide/Project-Structure.md
+    - Tools:
+      - Adding Tools: developer_guide/Adding-Tools.md
+    - Plugins:
+      - Plugins: developer_guide/Plugins.md
+    - Sandboxes:
+      - Sandbox System Guide: developer_guide/Sandboxes.md
+      - Adding a sandbox: developer_guide/Adding-a-Sandbox.md
+      - Adding a new sandbox backend: developer_guide/Adding-a-New-Sandbox-Backend.md
+  - Evaluation:
+    - Overview: evaluation/index.md
+    - Workflow Details: evaluation/workflow.md
+    - Adding a Benchmark: evaluation/adding-evaluations.md
   - CLI Reference:
     - Overview: cli/index.md
     - opensage:
@@ -121,13 +117,9 @@ nav:
     - opensage dependency-check:
       - Guide: cli/dependency-check.md
       - Flag Reference: generated/cli/opensage-dependency-check.md
-  - Evaluation:
-    - Overview: evaluation/index.md
-    - Workflow Details: evaluation/workflow.md
-    - Adding a Benchmark: evaluation/adding-evaluations.md
   - Community:
-    - Overview: Community.md
-    - Contributing: Contributing.md
+    - Support and feedback: community/Support-and-Feedback.md
+    - Contributing: community/Contributing.md
 
 # Extra
 extra:
