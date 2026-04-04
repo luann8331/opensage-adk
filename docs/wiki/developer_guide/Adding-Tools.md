@@ -253,7 +253,7 @@ once per session (subsequent runs are skipped via a marker under `/shared`).
 MCP toolsets are created via Python functions that return `MCPToolset` instances:
 
 ```python
-# src/opensage/toolbox/category/get_toolset.py
+# Example: src/opensage/toolbox/debugger/gdb_mcp/get_toolset.py
 from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, SseConnectionParams
 from opensage.toolbox.decorators import requires_sandbox, safe_tool_execution
 from opensage.utils.agent_utils import get_mcp_url_from_session_id

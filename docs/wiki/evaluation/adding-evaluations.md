@@ -185,7 +185,8 @@ For the full internal details, see [workflow details](workflow.md).
 
 | Example | Description |
 |---------|-------------|
-| `src/opensage/evaluations/cybergym/__init__.py` | Base evaluation class |
-| `src/opensage/evaluations/cybergym/cybergym_static.py` | Full-featured evaluation |
-| `src/opensage/evaluations/mock_debug/mock_debug_evaluation.py` | Minimal example |
-| `src/opensage/evaluations/secodeplt/vul_detection.py` | Another example |
+| `src/opensage/evaluation/base.py` | Base `Evaluation` / `EvaluationTask` implementation |
+| `benchmarks/cybergym/cybergym_static.py` | Static CyberGym evaluation |
+| `benchmarks/cybergym/cybergym_dynamic.py` | Dynamic CyberGym evaluation |
+| `benchmarks/cybergym/cybergym_vul_detection.py` | Vulnerability-detection CyberGym evaluation |
+| `benchmarks/swe_bench_pro/swe_bench_pro.py` | SWE-Bench Pro benchmark entry point |
