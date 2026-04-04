@@ -77,7 +77,7 @@ task = self._create_task(sample)
 Produces an `EvaluationTask` with a unique `session_id`, the original `sample`
 data, and task metadata.
 
-### 5.2 Create OpenSage session
+### 5.2 Create OpenSage-ADK session
 
 ```python
 session = opensage.get_session(

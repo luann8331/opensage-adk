@@ -1,6 +1,6 @@
 # Adding an evaluation benchmark
 
-This guide walks through creating a new evaluation benchmark for OpenSage.
+This guide walks through creating a new evaluation benchmark for OpenSage-ADK.
 
 ## 1. Create the evaluation module
 

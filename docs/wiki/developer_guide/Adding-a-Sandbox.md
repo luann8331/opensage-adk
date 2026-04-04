@@ -16,16 +16,16 @@ a sandbox initializer.
 
 Add a new initializer under:
 
-- `OpenSage/src/opensage/sandbox/initializers/`
+- `opensage-adk/src/opensage/sandbox/initializers/`
 
 Implement the `SandboxInitializer` interface from
-`OpenSage/src/opensage/sandbox/initializers/base.py`.
+`opensage-adk/src/opensage/sandbox/initializers/base.py`.
 
 ### 2) Register the initializer
 
 Register your initializer in the initializer registry:
 
-- `OpenSage/src/opensage/sandbox/factory.py` (`SANDBOX_INITIALIZERS`)
+- `opensage-adk/src/opensage/sandbox/factory.py` (`SANDBOX_INITIALIZERS`)
 
 This makes the sandbox type discoverable by name (e.g. `"my_sandbox"`).
 
@@ -33,11 +33,11 @@ This makes the sandbox type discoverable by name (e.g. `"my_sandbox"`).
 
 Add any required config fields to:
 
-- `OpenSage/src/opensage/config/config_dataclass.py`
+- `opensage-adk/src/opensage/config/config_dataclass.py`
 
 and update the default config template (if you ship one) under:
 
-- `OpenSage/src/opensage/templates/configs/`
+- `opensage-adk/src/opensage/templates/configs/`
 
 ### 4) Configure your sandbox in TOML
 

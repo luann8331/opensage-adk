@@ -14,7 +14,7 @@ This guide covers adding a **new backend** (not a new sandbox *type*).
 
 Create a new backend implementation under:
 
-- `OpenSage/src/opensage/sandbox/`
+- `opensage-adk/src/opensage/sandbox/`
 
 Backends are `BaseSandbox` subclasses (see `base_sandbox.py`) such as:
 
@@ -27,7 +27,7 @@ Backends are `BaseSandbox` subclasses (see `base_sandbox.py`) such as:
 
 Register your backend in:
 
-- `OpenSage/src/opensage/sandbox/factory.py` (`SANDBOX_BACKENDS`)
+- `opensage-adk/src/opensage/sandbox/factory.py` (`SANDBOX_BACKENDS`)
 
 Example (conceptually):
 

@@ -3,7 +3,7 @@
 ## Directory Overview
 
 ```
-OpenSage/
+opensage-adk/
 ├── README.md
 ├── docs/                    # Docs source (MkDocs)
 ├── src/

@@ -132,7 +132,7 @@ web_server = WebServer(
 )
 ```
 
-In-memory services bridge ADK sessions with OpenSage sessions. The app name is
+In-memory services bridge ADK sessions with OpenSage-ADK sessions. The app name is
 derived from the agent directory's parent folder.
 
 ### 5. Start server
@@ -144,7 +144,7 @@ server = uvicorn.Server(config)
 server.run()
 ```
 
-An ADK session is pre-created mapping to the OpenSage session, then Uvicorn
+An ADK session is pre-created mapping to the OpenSage-ADK session, then Uvicorn
 serves the FastAPI app.
 
 ### 6. User interaction flow

@@ -2,7 +2,7 @@
 
 ## Overview
 
-OpenSage supports three tool types:
+OpenSage-ADK supports three tool types:
 
 1. **Python tools**: any callable function (docstring becomes the tool description)
 2. **Agent Skills**: filesystem-discovered bash/Python scripts described by `SKILL.md`
@@ -215,7 +215,7 @@ main, fuzz
 
 Tools are automatically discovered from:
 - `src/opensage/bash_tools/` (built-in tools)
-- `~/.local/OpenSage/bash_tools/` (user-local skills/extensions)
+- `~/.local/opensage-adk/bash_tools/` (user-local skills/extensions)
 
 The framework scans these directories for `SKILL.md` files and loads them automatically.
 

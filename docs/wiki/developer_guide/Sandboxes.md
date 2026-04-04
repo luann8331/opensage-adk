@@ -2,7 +2,7 @@
 
 ## Overview
 
-The OpenSage sandbox system provides isolated execution environments through a
+The OpenSage-ADK sandbox system provides isolated execution environments through a
 pluggable backend architecture. This guide covers:
 
 - **Sandbox Backends**: Execution engines (`native`; `remotedocker`,
@@ -123,7 +123,7 @@ image = "ubuntu:22.04"
 
 The `opensandbox` backend is currently **under development**.
 
-Use OpenSandbox as the execution provider while keeping the same OpenSage
+Use OpenSandbox as the execution provider while keeping the same OpenSage-ADK
 sandbox abstractions.
 
 This backend is selected with:

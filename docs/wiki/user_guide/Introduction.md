@@ -1,12 +1,8 @@
 # Introduction
 
-## What is OpenSage?
+## What is OpenSage-ADK?
 
-OpenSage (Open Self-programming Agent Generation Engine) is an AI agent framework built on top of Google ADK (Agent Development Kit). It represents a paradigm shift from "Agent Development 1.0" to "Agent Development 2.0" — transitioning from agents that execute predefined structures to agents that can dynamically build and manage their own systems at runtime.
-
-## Core Value Proposition
-
-### From "Agent Using System" to "Agent Building System"
+OpenSage-ADK is an AI agent framework built on top of Google ADK. It represents a paradigm shift from "Agent Development 1.0" to "Agent Development 2.0" — transitioning from agents that execute predefined structures to agents that can dynamically build and manage their own systems at runtime.
 
 **Agent Development 1.0** (Traditional Frameworks):
 
@@ -15,7 +11,7 @@ OpenSage (Open Self-programming Agent Generation Engine) is an AI agent framewor
 - Extending to new tasks requires significant manual refactoring
 - Essentially human-centered agent building
 
-**Agent Development 2.0** (OpenSage):
+**Agent Development 2.0** (OpenSage-ADK):
 
 - Agents upgrade from "executing predefined structures" to "autonomously
   building and managing structures"
@@ -35,9 +31,9 @@ OpenSage (Open Self-programming Agent Generation Engine) is an AI agent framewor
 - **Integration with security tools** (Joern, CodeQL, GDB, Neo4j)
 - **Evaluation framework** for security benchmarks
 
-## Why OpenSage?
+## Why OpenSage-ADK?
 
-OpenSage was designed to make self-programming agent development feel more like software development. It provides:
+OpenSage-ADK was designed to make self-programming agent development feel more like software development. It provides:
 
 - **Isolation**: Each agent session has its own resources, preventing
   interference

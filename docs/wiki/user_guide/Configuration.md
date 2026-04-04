@@ -1,10 +1,10 @@
 # Configuration Guide
 
-This document describes the OpenSage configuration system, including all configuration fields, their purposes, and how to write configuration files.
+This document describes the OpenSage-ADK configuration system, including all configuration fields, their purposes, and how to write configuration files.
 
 ## Overview
 
-OpenSage uses TOML (Tom's Obvious, Minimal Language) format for configuration files. The configuration system supports:
+OpenSage-ADK uses TOML (Tom's Obvious, Minimal Language) format for configuration files. The configuration system supports:
 
 - **Template Variables**: Use `${VAR_NAME}` syntax for reusable values
 - **Nested Sections**: Organize related settings into logical groups
@@ -60,7 +60,7 @@ auto_cleanup = true
 
 ## Template Variables
 
-OpenSage supports template variable expansion using `${VAR_NAME}` syntax.
+OpenSage-ADK supports template variable expansion using `${VAR_NAME}` syntax.
 
 ### Rules:
 
@@ -405,7 +405,7 @@ Configures which plugins are enabled and where to find them. See
 **Default plugin discovery paths (no extra config required):**
 - Built-in plugins: `src/opensage/plugins/default/adk_plugins/`
 - Built-in Claude hook plugins: `src/opensage/plugins/default/claude_code_hooks/`
-- User-local plugins: `~/.local/OpenSage/plugins/` (`.py` and `.json`)
+- User-local plugins: `~/.local/opensage-adk/plugins/` (`.py` and `.json`)
 
 You can still add additional directories via `extra_plugin_dirs` if needed.
 

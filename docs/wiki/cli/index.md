@@ -1,6 +1,6 @@
 # CLI Reference
 
-OpenSage provides a command-line interface for interactive development and utility tasks.
+OpenSage-ADK provides a command-line interface for interactive development and utility tasks.
 
 ## Commands
 

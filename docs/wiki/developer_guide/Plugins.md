@@ -2,7 +2,7 @@
 
 ## Overview
 
-OpenSage uses a plugin system built on top of the ADK (Agent Development Kit) `BasePlugin` interface. Plugins hook into
+OpenSage-ADK uses a plugin system built on top of the ADK (Agent Development Kit) `BasePlugin` interface. Plugins hook into
 the agent's tool execution lifecycle — they can run logic **before** or **after** any tool call, injecting prompts,
 running sandbox commands, or modifying tool results.
 

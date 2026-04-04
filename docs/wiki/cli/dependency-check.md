@@ -2,7 +2,7 @@
 
 > Full flag reference: [`opensage dependency-check --help`](../generated/cli/opensage-dependency-check.md)
 
-Checks whether external dependencies required by specific OpenSage features are installed.
+Checks whether external dependencies required by specific OpenSage-ADK features are installed.
 
 ## Usage
 

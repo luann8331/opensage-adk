@@ -14,8 +14,8 @@ exclude_docs: |
   RL-Integration.md
 
 # Repository information
-repo_url: https://github.com/opensage-agent/OpenSage
-repo_name: opensage-agent/OpenSage
+repo_url: https://github.com/opensage-agent/opensage-adk
+repo_name: opensage-adk
 
 # Theme
 theme:
@@ -24,14 +24,14 @@ theme:
   favicon: assets/logos/opensage-favicon.svg
   palette:
     - scheme: default
-      primary: blue
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: blue
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -89,16 +89,13 @@ extra_css:
 nav:
   - Home: index.md
   - User Guide:
-    - Getting Started:
-      - Introduction: user_guide/Introduction.md
-      - Setup: user_guide/Setup.md
-      - Configuration: user_guide/Configuration.md
+    - Introduction: user_guide/Introduction.md
+    - Setup: user_guide/Setup.md
+    - Configuration: user_guide/Configuration.md
   - Developer Guide:
     - Project Structure: developer_guide/Project-Structure.md
-    - Tools:
-      - Adding Tools: developer_guide/Adding-Tools.md
-    - Plugins:
-      - Plugins: developer_guide/Plugins.md
+    - Tools: developer_guide/Adding-Tools.md
+    - Plugins: developer_guide/Plugins.md
     - Sandboxes:
       - Sandbox System Guide: developer_guide/Sandboxes.md
       - Adding a Sandbox: developer_guide/Adding-a-Sandbox.md

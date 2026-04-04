@@ -19,8 +19,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 # Clone the repository
-git clone https://github.com/opensage-agent/OpenSage.git
-cd OpenSage
+git clone https://github.com/opensage-agent/opensage-adk.git
+cd opensage-adk
 
 # Create virtual environment
 uv venv --python "python3.12" ".venv"
@@ -59,7 +59,7 @@ uv run opensage dependency-check
 
 ## Tools
 
-OpenSage agents can use Python tools, filesystem-discovered Skills, and MCP
+OpenSage-ADK agents can use Python tools, filesystem-discovered Skills, and MCP
 toolsets.
 
 [Adding a New Tool](../developer_guide/Adding-Tools.md): How to add new
@@ -68,7 +68,7 @@ tools/skills/toolsets.
 ## Creating Your Own Agent
 
 This section shows the minimal structure and conventions for writing an agent
-that OpenSage can load via `opensage web` and evaluation entry points.
+that OpenSage-ADK can load via `opensage web` and evaluation entry points.
 
 ### 1) Agent directory layout
 
@@ -79,7 +79,7 @@ my_agent/
 └── agent.py
 ```
 
-OpenSage loads your agent by importing `agent.py` and calling the `mk_agent`
+OpenSage-ADK loads your agent by importing `agent.py` and calling the `mk_agent`
 factory function.
 
 ### 2) `agent.py`: implement `mk_agent(session_id, ...)`
@@ -90,7 +90,7 @@ heavy work at import time.
 
 **What is `session_id`?**
 
-`session_id` is a user-chosen string that identifies one OpenSage run/session.
+`session_id` is a user-chosen string that identifies one OpenSage-ADK run/session.
 It is used to scope and isolate session resources (sandboxes, config, Neo4j
 clients, dynamic agents, etc.). You can set it to any value you like, but it
 should be **unique per concurrent run** (using a UUID is a common choice).
@@ -145,7 +145,7 @@ credential resolution from environment variables (for example,
 
 ### 3) Base agent attributes / flags (what you typically customize)
 
-The OpenSage base agent extends ADK’s `LlmAgent` and adds OpenSage-specific
+The OpenSage-ADK base agent extends ADK’s `LlmAgent` and adds OpenSage-ADK-specific
 capabilities. The most commonly used fields are:
 
 **`name` / `description`**: identify the agent in logs and the UI.
@@ -167,7 +167,7 @@ capabilities. The most commonly used fields are:
 
 ### 4) Configuration
 
-OpenSage sessions are configured via TOML. You can start from the default config
+OpenSage-ADK sessions are configured via TOML. You can start from the default config
 and **override only what you need** (sandboxes, build commands, plugins, etc.).
 
 When running the web UI, pass your config path:
@@ -231,7 +231,7 @@ In `agent.py`: set `memory_management=MemoryManagement.DATABASE`.
 
 Dynamic sub-agents are enabled by adding the dynamic-subagent tools to your
 agent’s `tools` list (e.g. `create_subagent`, `list_active_agents`,
-`call_subagent_as_tool`). OpenSage will manage their lifecycle under the current
+`call_subagent_as_tool`). OpenSage-ADK will manage their lifecycle under the current
 session.
 
 If you want dynamic agents to persist across runs, set an `agent_storage_path`
@@ -253,7 +253,7 @@ Run one in the web UI by pointing `--agent` to the example directory and
 
 ## Adding tools to your agent
 
-OpenSage supports three tool types you can enable in your agent:
+OpenSage-ADK supports three tool types you can enable in your agent:
 
 **Python tools** (callable functions)
 **Agent Skills** (bash/Python scripts discovered from `bash_tools/`)
