@@ -405,7 +405,7 @@ Configures which plugins are enabled and where to find them. See
 **Default plugin discovery paths (no extra config required):**
 - Built-in plugins: `src/opensage/plugins/default/adk_plugins/`
 - Built-in Claude hook plugins: `src/opensage/plugins/default/claude_code_hooks/`
-- User-local plugins: `~/.local/opensage-adk/plugins/` (`.py` and `.json`)
+- User-local plugins: `~/.local/opensage/plugins/` (`.py` and `.json`)
 
 You can still add additional directories via `extra_plugin_dirs` if needed.
 

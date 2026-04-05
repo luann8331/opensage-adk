@@ -16,6 +16,10 @@
   color: #ffffff;
 }
 
+[data-md-color-scheme="slate"] .md-content code {
+  color: #ffffff;
+}
+
 [data-md-color-scheme="slate"] .md-content a:hover {
   color: #00d4ff;
 }
